@@ -1,0 +1,29 @@
+<!doctype html>
+<html ng-app="myApp">
+    
+<head>
+    <title>Weekly Goals</title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css" />
+</head>
+        
+<body>  
+    <div class="form-container" ng-controller="myController">
+        <p id="sectionTitle" class="form-header">User Profile</p>
+        <form method="POST" action="/user/update">
+            
+            <label>New Weekly Goal:</label>
+            <input type="text" id="color" name="color" ng-model="user.color"><br>   
+            <input type="submit" id="save" value="Save">
+        </form>
+    </div>
+ 
+ 
+
+    <hr>
+
+    <script src="http://code.angularjs.org/1.2.9/angular.min.js"></script>
+    <script src="/javascripts/my_app.js"></script>
+    <a id="homeLink" href="/">Return Home</a>
+</body>
+
+</html>

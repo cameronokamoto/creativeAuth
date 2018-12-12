@@ -1,0 +1,137 @@
+
+
+
+body {
+  padding: 20px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: url("http://awakingdreamer.com/wp-content/uploads/2015/08/Chasing-Dreams-I-See-You-From-The-Clouds-feat.-moshimoss.jpg") no-repeat fixed;
+      -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+a {
+    color: #00B7FF;
+      padding: 54px;
+    background-color: white;
+     display: table;
+    margin-bottom: 1px;
+    font-size: 30px;
+    border: solid;
+        border-color: #85c1e5;
+    border-width: 7px;
+    border-radius: 16px;
+    opacity: .8;
+  margin-left: auto;
+  margin-right: auto;
+    text-align: center;
+    font-family: serif;
+    font-weight: lighter;
+  
+}
+
+.form-container
+{
+  color: #00B7FF;
+      padding: 54px;
+    background-color: white;
+     display: table;
+    margin-bottom: 1px;
+    font-size: 30px;
+    border: solid;
+        border-color: #85c1e5;
+    border-width: 7px;
+    border-radius: 16px;
+    opacity: .8;
+  margin-left: auto;
+  margin-right: auto;
+    text-align: center;
+    font-family: serif;
+    font-weight: lighter;
+
+}
+
+
+#signUpLink{
+    color: #15b1f4;
+    padding: 7px;
+    background-color: white;
+    display: table;
+    font-size: 20px;
+    border: solid;
+        border-color: #85c1e5;
+    border-width: 4px;
+    border-radius: 17px;
+    opacity: .8;
+    margin-left:auto;
+    margin-right: auto;
+     font-family: serif;
+}
+
+#welcomeText
+{
+  
+}
+
+#logoutLink
+{
+  color: #15b1f4;
+    padding: 5px;
+    background-color: white;
+    display: table;
+    font-size: 30px;
+    border: solid;
+        border-color: #85c1e5;
+    border-width: 4px;
+    border-radius: 17px;
+    opacity: .8;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+     font-family: serif;
+}
+
+#editLink
+{
+   color: #15b1f4;
+    padding: 7px;
+    background-color: white;
+    display: table;
+    font-size: 20px;
+    border: solid;
+        border-color: #85c1e5;
+    border-width: 4px;
+    border-radius: 17px;
+    opacity: .8;
+
+     font-family: serif;
+}
+
+#colorText
+{  color: #15b1f4;
+    padding: 7px;
+    background-color: white;
+    display: table;
+    font-size: 60px;
+    border: solid;
+        border-color: #85c1e5;
+    border-width: 4px;
+    border-radius: 17px;
+    opacity: .8;
+    margin-left:auto;
+    margin-right: auto;
+     font-family: serif;
+}
+
+h2 {
+    color: #e3edf7;
+    font-size: 30px;
+    font-family: serif;
+}
+
+h1{
+        color: lavender;
+    font-size: 40px;
+    font-family: serif;
+}

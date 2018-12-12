@@ -1,0 +1,38 @@
+<!doctype html>
+<html ng-app="myApp"> 
+    
+<head>
+    <title>Weekly Goals</title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css" />
+</head>
+           <STYLE>A {text-decoration: none;} </STYLE>  
+<body>  
+    <div ng-controller="myController">
+        <h2 id="welcomeText"> Hi
+            <%= username %> 
+        </h2>
+        <a id="logoutLink" href="/logout">Logout</a>
+        <a id="editLink" href="/user">click to edit your goal</a>
+
+    </div>
+    
+<br>
+<br>
+<br>
+    
+    <span id="colorText">
+   <%= username %> your weekly go is:
+        <%= color %> 
+      </span>
+      
+      
+      <h1>Remember:</h1>
+      <h2>
+      What you get by achieving your goals is not as important as what you become
+      </h2>
+      
+    <script src="http://code.angularjs.org/1.2.9/angular.min.js"></script>
+    <script src="/javascripts/my_app.js"></script>
+</body>
+      
+</html>
